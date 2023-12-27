@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/PicPay.sln",
+                "${workspaceFolder}/PicPayDotnet.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign",
                 "-c",
@@ -21,7 +21,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/PicPay.sln",
+                "${workspaceFolder}/PicPayDotnet.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -35,7 +35,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/PicPay.sln"
+                "${workspaceFolder}/PicPayDotnet.sln"
             ],
             "problemMatcher": "$msCompile"
         }

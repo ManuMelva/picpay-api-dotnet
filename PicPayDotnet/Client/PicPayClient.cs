@@ -39,7 +39,7 @@ namespace PicPayDotnet.Client
             {
                 var descricao = JSONExtension.GetJsonObject<PicPayErros>(response.Content.ReadAsStringAsync().Result);
 
-                throw new Exception($"Ocorreu um erro ao gerar o QR Code! Segue abaixo o erro: \n{descricao.Campo}: {descricao.Mensagem}");
+                throw new Exception($"Ocorreu um erro ao gerar a cobrança! Segue abaixo o erro: \n{descricao.Campo}: {descricao.Mensagem}");
             }
         }
 
@@ -62,7 +62,7 @@ namespace PicPayDotnet.Client
             {
                 var descricao = JSONExtension.GetJsonObject<PicPayErros>(response.Content.ReadAsStringAsync().Result);
 
-                throw new Exception($"Ocorreu um erro ao gerar o QR Code! Segue abaixo o erro: \n{descricao.Campo}: {descricao.Mensagem}");
+                throw new Exception($"Ocorreu um erro ao cancelar a cobrança! Segue abaixo o erro: \n{descricao.Campo}: {descricao.Mensagem}");
             }
         }
     }

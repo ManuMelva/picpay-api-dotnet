@@ -9,7 +9,7 @@
     <Version>1.0.0</Version>
     <Authors>Emmanuel Silva, PicPay</Authors>
     <Company>Emmanuel Silva, PicPay</Company>
-    <Description>Métodos responsáveis para consumir e utilizar a api do PicPay, com alguns adicionais, como por exemplo, gerar o QRCode</Description>
+    <Description>Métodos responsáveis para consumir e utilizar a api do PicPay, com alguns adicionais.</Description>
     <Copyright>Copyright (c) 2023 Emmanuel Silva</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/ManuMelva/picpay-api-dotnet</RepositoryUrl>
